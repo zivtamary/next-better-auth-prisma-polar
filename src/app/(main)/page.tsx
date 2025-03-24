@@ -5,7 +5,7 @@ import { useCopyToClipboard } from 'react-use'
 import { CheckCheck, Copy } from 'lucide-react'
 import { toast } from 'sonner'
 
-import { useCount, useCountActions } from '~/store/count-store'
+import { useCount, useCountActions } from '@/store/count-store'
 
 const CLONE_TEXT = 'git clone https://github.com/BinarySenseiii/next-clean.git'
 

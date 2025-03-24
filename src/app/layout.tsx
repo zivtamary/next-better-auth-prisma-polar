@@ -3,12 +3,12 @@
 import type React from 'react'
 import { type Viewport } from 'next'
 
-import '~/styles/index.css'
+import '@/styles/index.css'
 
-import { fontInter } from '~/components/ui'
-import { appConfig } from '~/constant'
-import { cn, getSEOTags, renderJsonLd } from '~/lib'
-import RootProviders from '~/providers'
+import { fontInter } from '@/components/ui'
+import { appConfig } from '@/constant'
+import { cn, getSEOTags, renderJsonLd } from '@/lib'
+import RootProviders from '@/providers'
 
 export const viewport: Viewport = {
    themeColor: appConfig.theme,

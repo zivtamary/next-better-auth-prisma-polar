@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 
-import { getBackgroundPattern } from '~/components'
+import { getBackgroundPattern } from '@/components'
 
 const NotFoundPage = () => {
    return (

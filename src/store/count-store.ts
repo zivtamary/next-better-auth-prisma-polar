@@ -1,6 +1,6 @@
 import { useShallow } from 'zustand/react/shallow'
 
-import { createStore } from '~/lib/store'
+import { createStore } from '@/lib/store'
 
 // ? https://tkdodo.eu/blog/working-with-zustand to read more why this approach best
 

@@ -9,7 +9,7 @@ import axios, {
    type Method,
 } from 'axios'
 
-import { appConfig } from '~/constant'
+import { appConfig } from '@/constant'
 
 const BASE_URL = `https://${appConfig.domainName}`
 

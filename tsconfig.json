@@ -19,8 +19,8 @@
       ],
 
       "paths": {
-         "~/*": ["./src/*"],
-         "~/modules/*": ["./src/modules/*"]
+         "@/*": ["./src/*"],
+         "@/modules/*": ["./src/modules/*"]
       },
       "target": "ES2023"
    },

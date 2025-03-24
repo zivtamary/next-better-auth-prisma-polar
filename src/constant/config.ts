@@ -1,6 +1,6 @@
 /** @format */
 
-import { type ConfigProps } from '~/types/_config'
+import { type ConfigProps } from '@/types/_config'
 
 export const appConfig: ConfigProps = {
    author: 'faisal tariq',

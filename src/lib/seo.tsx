@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import { type SoftwareApplication, type WithContext } from 'schema-dts'
 
-import { appConfig } from '~/constant'
+import { appConfig } from '@/constant'
 
 export type SeoMeta = {
    canonicalUrlRelative?: string

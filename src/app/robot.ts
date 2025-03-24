@@ -2,7 +2,7 @@
 
 import { type MetadataRoute } from 'next'
 
-import { appConfig } from '~/constant'
+import { appConfig } from '@/constant'
 
 export default function robots(): MetadataRoute.Robots {
    return {
